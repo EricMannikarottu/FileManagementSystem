@@ -15,8 +15,6 @@ for (const item of files) {
         continue
     }
 
-    console.log(ext)
-
     const stats = await fs.stat(filePath)
 
     if(stats.isFile()){
